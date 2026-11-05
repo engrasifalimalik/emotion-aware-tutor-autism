@@ -47,7 +47,7 @@ The datasets are **not** included. Obtain them from their original sources under
 |---|---|---|
 | FER2013 | C1, C2 | Goodfellow et al. (2013); Hugging Face / Kaggle mirrors |
 | Autistic Children Emotions | C1, C2 | Public Kaggle dataset (Talaat, 2023) |
-| DAiSEE | C3 | Gupta et al. (2016), on request from the authors |
+| DAiSEE | C3 | Public Kaggle mirror (original dataset: Gupta et al., 2016) |
 | ASSISTments 2012–13 with affect | C4 | ASSISTments data portal (Pardos et al., 2014) |
 
 **FER2013-Child** is derived by `make_child_subset.py`: a ViT age classifier (`nateraw/vit-age-classifier`) keeps faces with P(age 0–9) ≥ 0.9.
