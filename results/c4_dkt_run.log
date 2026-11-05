@@ -1,0 +1,21 @@
+train seqs=29324 test seqs=12498 skills=265
+  affect=False epoch 1 loss=0.494 17s
+  affect=False epoch 2 loss=0.517 22s
+  affect=False epoch 3 loss=0.562 22s
+  affect=True epoch 1 loss=0.495 22s
+  affect=True epoch 2 loss=0.524 22s
+  affect=True epoch 3 loss=0.564 22s
+{
+  "dkt": {
+    "auc": 0.7207165141861305,
+    "acc": 0.7334511923448279,
+    "n_test_preds": 741564
+  },
+  "dkt_affect": {
+    "auc": 0.7215476048142928,
+    "acc": 0.7337842721599215,
+    "n_test_preds": 741564
+  },
+  "epochs": 3,
+  "runtime_s": 153
+}

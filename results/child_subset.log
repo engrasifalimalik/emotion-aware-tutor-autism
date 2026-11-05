@@ -1,0 +1,23 @@
+Loading weights:   0%|          | 0/200 [00:00<?, ?it/s]Loading weights:   5%|5         | 10/200 [00:00<00:01, 99.91it/s]Loading weights:  12%|#2        | 25/200 [00:00<00:01, 125.96it/s]Loading weights:  24%|##4       | 49/200 [00:00<00:00, 171.94it/s]Loading weights:  34%|###3      | 67/200 [00:00<00:00, 163.11it/s]Loading weights:  42%|####2     | 84/200 [00:00<00:00, 163.64it/s]Loading weights: 100%|##########| 200/200 [00:00<00:00, 325.47it/s]
+train 0 28709
+train 3200 28709
+train 6400 28709
+train 9600 28709
+train 12800 28709
+train 16000 28709
+train 19200 28709
+train 22400 28709
+train 25600 28709
+publicTest 0 3589
+publicTest 3200 3589
+privateTest 0 3589
+privateTest 3200 3589
+group     adult  child
+label                 
+angry      3991    718
+disgust     491     42
+fear       4198    626
+happy      7203   1416
+neutral    4690    940
+sad        4611   1058
+surprise   2809    882

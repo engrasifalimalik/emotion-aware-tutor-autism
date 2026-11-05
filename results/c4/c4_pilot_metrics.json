@@ -1,0 +1,59 @@
+{
+  "n_rows": 214581,
+  "n_students": 2297,
+  "models": {
+    "cognitive/logreg": {
+      "auc": 0.6899679257033555,
+      "acc": 0.7123929526854827,
+      "f1_incorrect": 0.3195895592255552
+    },
+    "cognitive/xgboost": {
+      "auc": 0.70390695251603,
+      "acc": 0.7180599306665822,
+      "f1_incorrect": 0.3521623686029171
+    },
+    "affect/logreg": {
+      "auc": 0.5207126386649628,
+      "acc": 0.6932392002912636,
+      "f1_incorrect": 0.0
+    },
+    "affect/xgboost": {
+      "auc": 0.6032590783391366,
+      "acc": 0.6967850189163092,
+      "f1_incorrect": 0.1288826231297467
+    },
+    "fused/logreg": {
+      "auc": 0.6904975586871195,
+      "acc": 0.7128361800136134,
+      "f1_incorrect": 0.32302123372019254
+    },
+    "fused/xgboost": {
+      "auc": 0.7050859792058793,
+      "acc": 0.7196745445047726,
+      "f1_incorrect": 0.35694832782599223
+    },
+    "majority_baseline_acc": 0.6932392002912636
+  },
+  "rules": {
+    "base_rate_incorrect": 0.3067607997087364,
+    "perf_only (acc5<0.5 & att5>1.5)": {
+      "coverage": 0.13065708451395375,
+      "precision": 0.45468863581293917,
+      "recall": 0.19366324371742608,
+      "lift": 1.4822253568404355
+    },
+    "affect_only (frustrated or confused high)": {
+      "coverage": 0.12992892533202477,
+      "precision": 0.33796296296296297,
+      "recall": 0.14314464110635225,
+      "lift": 1.1017149625501448
+    },
+    "emotion_aware (perf rule OR (acc5<0.6 & frus/conf high))": {
+      "coverage": 0.14237094961455052,
+      "precision": 0.46330887258172115,
+      "recall": 0.21502657515867693,
+      "lift": 1.5103261988546914
+    }
+  },
+  "runtime_s": 119
+}

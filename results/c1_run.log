@@ -1,0 +1,6 @@
+{'fer_train': 6000, 'fer_test': 3589}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+mobilenetv3_large_100 {'fer_test': (0.442, 0.416)} {'cpu_fps': 29.2, 'params_m': 4.2}
+efficientnet_b0 {'fer_test': (0.429, 0.405)} {'cpu_fps': 26.0, 'params_m': 4.0}
+resnet50 {'fer_test': (0.417, 0.389)} {'cpu_fps': 8.0, 'params_m': 23.5}
+vit_small_patch16_224 {'fer_test': (0.534, 0.488)} {'cpu_fps': 10.8, 'params_m': 21.7}

@@ -1,0 +1,93 @@
+  affect=False epoch 1 loss=0.506 41s
+  affect=False epoch 2 loss=0.539 41s
+  affect=False epoch 3 loss=0.518 40s
+  affect=True epoch 1 loss=0.505 42s
+  affect=True epoch 2 loss=0.530 42s
+  affect=True epoch 3 loss=0.528 41s
+seed 0 done in 712s: {"xgb_cog_auc": 0.7037, "xgb_fused_auc": 0.705, "dkt_auc": 0.7177, "dkt_affect_auc": 0.7191, "rule_perf_recall": 0.2179, "rule_emo_recall": 0.2707, "rule_perf_precision": 0.4467, "rule_emo_precision": 0.4363}
+  affect=False epoch 1 loss=0.573 40s
+  affect=False epoch 2 loss=0.539 40s
+  affect=False epoch 3 loss=0.585 40s
+  affect=True epoch 1 loss=0.577 40s
+  affect=True epoch 2 loss=0.537 40s
+  affect=True epoch 3 loss=0.587 40s
+seed 1 done in 854s: {"xgb_cog_auc": 0.7051, "xgb_fused_auc": 0.7065, "dkt_auc": 0.7208, "dkt_affect_auc": 0.7212, "rule_perf_recall": 0.2207, "rule_emo_recall": 0.273, "rule_perf_precision": 0.4498, "rule_emo_precision": 0.4394}
+  affect=False epoch 1 loss=0.622 40s
+  affect=False epoch 2 loss=0.554 41s
+  affect=False epoch 3 loss=0.549 40s
+  affect=True epoch 1 loss=0.619 41s
+  affect=True epoch 2 loss=0.551 41s
+  affect=True epoch 3 loss=0.549 41s
+seed 2 done in 848s: {"xgb_cog_auc": 0.7026, "xgb_fused_auc": 0.7039, "dkt_auc": 0.7173, "dkt_affect_auc": 0.7177, "rule_perf_recall": 0.2139, "rule_emo_recall": 0.2676, "rule_perf_precision": 0.4443, "rule_emo_precision": 0.4345}
+  affect=False epoch 1 loss=0.518 40s
+  affect=False epoch 2 loss=0.636 40s
+  affect=False epoch 3 loss=0.280 40s
+  affect=True epoch 1 loss=0.505 41s
+  affect=True epoch 2 loss=0.607 42s
+  affect=True epoch 3 loss=0.336 41s
+seed 3 done in 852s: {"xgb_cog_auc": 0.7044, "xgb_fused_auc": 0.7057, "dkt_auc": 0.7201, "dkt_affect_auc": 0.7206, "rule_perf_recall": 0.218, "rule_emo_recall": 0.2696, "rule_perf_precision": 0.448, "rule_emo_precision": 0.436}
+  affect=False epoch 1 loss=0.555 41s
+  affect=False epoch 2 loss=0.493 40s
+  affect=False epoch 3 loss=0.501 40s
+  affect=True epoch 1 loss=0.554 41s
+  affect=True epoch 2 loss=0.493 42s
+  affect=True epoch 3 loss=0.503 44s
+seed 4 done in 862s: {"xgb_cog_auc": 0.7036, "xgb_fused_auc": 0.7048, "dkt_auc": 0.7187, "dkt_affect_auc": 0.7189, "rule_perf_recall": 0.2176, "rule_emo_recall": 0.27, "rule_perf_precision": 0.4459, "rule_emo_precision": 0.436}
+{
+  "xgb_cog_auc": {
+    "mean": 0.7038757907610463,
+    "std": 0.0009353652521155761
+  },
+  "xgb_fused_auc": {
+    "mean": 0.705184464135363,
+    "std": 0.0009568120571241382
+  },
+  "dkt_auc": {
+    "mean": 0.7189105717738823,
+    "std": 0.0014926896940062812
+  },
+  "dkt_affect_auc": {
+    "mean": 0.7194985927830843,
+    "std": 0.001387652354742246
+  },
+  "rule_perf_recall": {
+    "mean": 0.21762029531422175,
+    "std": 0.002408112229718657
+  },
+  "rule_emo_recall": {
+    "mean": 0.2701929797108969,
+    "std": 0.0019682215915216347
+  },
+  "rule_perf_precision": {
+    "mean": 0.44696753898574465,
+    "std": 0.0020807099554108442
+  },
+  "rule_emo_precision": {
+    "mean": 0.4364389958329344,
+    "std": 0.0017933122073738267
+  },
+  "gain_xgb_fused_auc": {
+    "mean": 0.0013086733743167046,
+    "std": 6.520809005864207e-05,
+    "seeds_positive": 5,
+    "n_seeds": 5
+  },
+  "gain_dkt_affect_auc": {
+    "mean": 0.0005880210092019666,
+    "std": 0.00047538644657901005,
+    "seeds_positive": 5,
+    "n_seeds": 5
+  },
+  "gain_rule_emo_recall": {
+    "mean": 0.05257268439667508,
+    "std": 0.0007209892256058408,
+    "seeds_positive": 5,
+    "n_seeds": 5
+  },
+  "gain_rule_emo_precision": {
+    "mean": -0.010528543152810276,
+    "std": 0.0008724092565808693,
+    "seeds_positive": 0,
+    "n_seeds": 5
+  }
+}

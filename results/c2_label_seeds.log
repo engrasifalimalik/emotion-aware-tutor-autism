@@ -1,0 +1,34 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+dev=cpu trainable=4.21M src=6000 tgt_lab=210 tgt_unlab=631 tgt_test=358 steps=291
+  ep1 step 50/291 loss=1.609 165s
+  ep2 step 100/291 loss=1.573 327s
+  ep2 step 150/291 loss=1.649 450s
+  ep3 step 200/291 loss=1.642 614s
+  ep3 step 250/291 loss=1.297 741s
+mobilenetv3_large_100_full_tf0.25_s1 {"target_test": {"acc": 0.441340782122905, "macro_f1": 0.43135690068458105, "n": 358}, "source_test": {"acc": 0.5112844803566453, "macro_f1": 0.44204860789486744, "n": 3589}, "train_s": 848}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+dev=cpu trainable=4.21M src=6000 tgt_lab=420 tgt_unlab=421 tgt_test=358 steps=300
+  ep1 step 50/300 loss=1.677 174s
+  ep1 step 100/300 loss=1.650 295s
+  ep2 step 150/300 loss=1.560 463s
+  ep2 step 200/300 loss=1.301 591s
+  ep3 step 250/300 loss=1.369 759s
+  ep3 step 300/300 loss=1.369 885s
+mobilenetv3_large_100_full_tf0.5_s1 {"target_test": {"acc": 0.5865921787709497, "macro_f1": 0.5818661388635852, "n": 358}, "source_test": {"acc": 0.5065477848983003, "macro_f1": 0.43355407924020056, "n": 3589}, "train_s": 887}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+dev=cpu trainable=4.21M src=6000 tgt_lab=210 tgt_unlab=628 tgt_test=361 steps=291
+  ep1 step 50/291 loss=1.768 157s
+  ep2 step 100/291 loss=1.707 302s
+  ep2 step 150/291 loss=1.555 418s
+  ep3 step 200/291 loss=1.375 578s
+  ep3 step 250/291 loss=1.590 695s
+mobilenetv3_large_100_full_tf0.25_s2 {"target_test": {"acc": 0.44598337950138506, "macro_f1": 0.44936510967672066, "n": 361}, "source_test": {"acc": 0.5110058512120368, "macro_f1": 0.4477312312293596, "n": 3589}, "train_s": 793}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+dev=cpu trainable=4.21M src=6000 tgt_lab=419 tgt_unlab=419 tgt_test=361 steps=300
+  ep1 step 50/300 loss=1.552 158s
+  ep1 step 100/300 loss=1.493 267s
+  ep2 step 150/300 loss=1.483 425s
+  ep2 step 200/300 loss=1.513 542s
+  ep3 step 250/300 loss=1.223 704s
+  ep3 step 300/300 loss=1.392 823s
+mobilenetv3_large_100_full_tf0.5_s2 {"target_test": {"acc": 0.5789473684210527, "macro_f1": 0.581900617232453, "n": 361}, "source_test": {"acc": 0.5068264140429088, "macro_f1": 0.44509680643987026, "n": 3589}, "train_s": 824}

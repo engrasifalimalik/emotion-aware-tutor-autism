@@ -1,0 +1,31 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+dev=cpu trainable=4.21M src=6000 tgt_lab=0 tgt_unlab=841 tgt_test=358 steps=279
+  ep1 step 50/279 loss=1.953 189s
+  ep2 step 100/279 loss=1.472 358s
+  ep2 step 150/279 loss=1.463 466s
+  ep3 step 200/279 loss=1.346 903s
+  ep3 step 250/279 loss=1.413 1847s
+mobilenetv3_large_100_full_tf0.0_s1 {"target_test": {"acc": 0.18994413407821228, "macro_f1": 0.15379417874392806, "n": 358}, "source_test": {"acc": 0.5029256060183895, "macro_f1": 0.44491525801755744, "n": 3589}, "train_s": 1903}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+dev=cpu trainable=4.54M src=6000 tgt_lab=0 tgt_unlab=841 tgt_test=358 steps=279
+  ep1 step 50/279 loss=2.125 554s
+  ep2 step 100/279 loss=1.939 996s
+  ep2 step 150/279 loss=1.933 1392s
+  ep3 step 200/279 loss=1.813 1841s
+  ep3 step 250/279 loss=1.572 2262s
+mobilenetv3_large_100_dann_tf0.0_s1 {"target_test": {"acc": 0.29608938547486036, "macro_f1": 0.20965684370145957, "n": 358}, "source_test": {"acc": 0.47534132070214546, "macro_f1": 0.41334366205065226, "n": 3589}, "train_s": 2490}
+dev=cpu trainable=4.21M src=6000 tgt_lab=0 tgt_unlab=838 tgt_test=361 steps=279
+  ep1 step 50/279 loss=1.682 166s
+  ep2 step 100/279 loss=1.453 334s
+  ep2 step 150/279 loss=1.506 454s
+  ep3 step 200/279 loss=1.240 816s
+  ep3 step 250/279 loss=1.569 910s
+mobilenetv3_large_100_full_tf0.0_s2 {"target_test": {"acc": 0.18005540166204986, "macro_f1": 0.14522418339204043, "n": 361}, "source_test": {"acc": 0.5160211758149903, "macro_f1": 0.4538138494400124, "n": 3589}, "train_s": 967}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+dev=cpu trainable=4.54M src=6000 tgt_lab=0 tgt_unlab=838 tgt_test=361 steps=279
+  ep1 step 50/279 loss=1.751 362s
+  ep2 step 100/279 loss=1.818 826s
+  ep2 step 150/279 loss=1.632 1261s
+  ep3 step 200/279 loss=1.635 1748s
+  ep3 step 250/279 loss=1.696 2157s
+mobilenetv3_large_100_dann_tf0.0_s2 {"target_test": {"acc": 0.32409972299168976, "macro_f1": 0.24038630399459, "n": 361}, "source_test": {"acc": 0.48537196990805237, "macro_f1": 0.42016378031047286, "n": 3589}, "train_s": 2332}

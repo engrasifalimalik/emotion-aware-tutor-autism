@@ -1,0 +1,35 @@
+{
+  "args": {
+    "fer": "data/fer2013",
+    "target": "data/autism_emotions/Autism emotion recogition dataset/Autism emotion recogition dataset/train",
+    "backbone": "mobilenetv3_large_100",
+    "strategy": "dann",
+    "target_frac": 0.0,
+    "target_upweight": 5.0,
+    "k": 2,
+    "r": 8,
+    "loss": "ce",
+    "dann_w": 0.3,
+    "epochs": 3,
+    "bs": 64,
+    "lr": 0.001,
+    "img": 112,
+    "n_src": 6000,
+    "n_test": 0,
+    "workers": 2,
+    "seed": 2,
+    "out": "results/c2_real/finetune"
+  },
+  "trainable_m": 4.539449,
+  "train_s": 2332,
+  "target_test": {
+    "acc": 0.32409972299168976,
+    "macro_f1": 0.24038630399459,
+    "n": 361
+  },
+  "source_test": {
+    "acc": 0.48537196990805237,
+    "macro_f1": 0.42016378031047286,
+    "n": 3589
+  }
+}

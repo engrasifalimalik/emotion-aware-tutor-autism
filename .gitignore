@@ -1,0 +1,19 @@
+# Datasets are not redistributed (see README: Data)
+data/
+*.parquet
+*.zip
+# Large intermediate files
+*.npy
+*.npz
+*.pkl
+*.pt
+*.pth
+results/**/emb/
+results/**/features/
+# Credentials
+kaggle.json
+.env
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

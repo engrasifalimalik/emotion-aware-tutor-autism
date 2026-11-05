@@ -1,0 +1,5 @@
+{'fer_train': 6000, 'fer_test': 3589, 'adult': 2327, 'child': 4582, 'autism_train': 1199, 'autism_test': 226}
+mobilenetv3_large_100 {'fer_test': (0.423, 0.377), 'adult': (0.446, 0.397), 'child': (0.354, 0.298), 'autism_train': (0.205, 0.137), 'autism_test': (0.173, 0.117)} {'cpu_fps': 30.5, 'params_m': 4.2}
+efficientnet_b0 {'fer_test': (0.425, 0.392), 'adult': (0.444, 0.412), 'child': (0.316, 0.263), 'autism_train': (0.163, 0.129), 'autism_test': (0.186, 0.156)} {'cpu_fps': 17.8, 'params_m': 4.0}
+resnet50 {'fer_test': (0.405, 0.377), 'adult': (0.428, 0.4), 'child': (0.318, 0.258), 'autism_train': (0.151, 0.117), 'autism_test': (0.204, 0.178)} {'cpu_fps': 9.4, 'params_m': 23.5}
+vit_small_patch16_224 {'fer_test': (0.529, 0.471), 'adult': (0.56, 0.504), 'child': (0.408, 0.326), 'autism_train': (0.239, 0.124), 'autism_test': (0.204, 0.105)} {'cpu_fps': 15.0, 'params_m': 21.7}

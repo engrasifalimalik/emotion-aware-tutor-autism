@@ -1,0 +1,66 @@
+rows=2514851 students=26901 t=442s
+{
+  "n_rows": 2514851,
+  "n_students": 26901,
+  "models": {
+    "cognitive/logreg": {
+      "auc": 0.6894461304994216,
+      "acc": 0.7199437059368893,
+      "f1_incorrect": 0.3070235085194452
+    },
+    "cognitive/xgboost": {
+      "auc": 0.7065262976682958,
+      "acc": 0.7280169682578855,
+      "f1_incorrect": 0.3433135789744911
+    },
+    "affect/logreg": {
+      "auc": 0.5215348682740506,
+      "acc": 0.6980437146077758,
+      "f1_incorrect": 0.0
+    },
+    "affect/xgboost": {
+      "auc": 0.6086200282379584,
+      "acc": 0.7022857790791519,
+      "f1_incorrect": 0.10330709673790324
+    },
+    "fused/logreg": {
+      "auc": 0.6898103326830938,
+      "acc": 0.7202225082873666,
+      "f1_incorrect": 0.30870598472587996
+    },
+    "fused/xgboost": {
+      "auc": 0.7078313058076642,
+      "acc": 0.7282224015687635,
+      "f1_incorrect": 0.3461303926414234
+    },
+    "majority_baseline_acc": 0.6980437146077758
+  },
+  "runtime_s": 564
+}
+{
+  "perf_only_best": {
+    "params": {
+      "acc5_lt": 0.6,
+      "att5_gt": 1.25
+    },
+    "test": {
+      "coverage": 0.1487123733550328,
+      "precision": 0.45242195909580196,
+      "recall": 0.22281617091585415,
+      "lift": 1.4983028371412483
+    }
+  },
+  "emotion_aware_best": {
+    "params": {
+      "affect_quantile": 0.6,
+      "acc5_lt_when_affect": 0.7
+    },
+    "test": {
+      "coverage": 0.187299152254097,
+      "precision": 0.4430152557583009,
+      "recall": 0.2747960080757388,
+      "lift": 1.4671503035045257
+    }
+  },
+  "selection": "F1(incorrect) on validation students"
+}

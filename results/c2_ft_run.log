@@ -1,0 +1,8 @@
+dev=cpu trainable=4.21M src=6000 tgt_lab=0 tgt_unlab=844 tgt_test=355 steps=279
+mobilenetv3_large_100_full_tf0.0_s42 {"target_test": {"acc": 0.14084507042253522, "macro_f1": 0.1019313858886678, "n": 355}, "source_test": {"acc": 0.5121203677904709, "macro_f1": 0.44561228894037186, "n": 3589}, "train_s": 994}
+dev=cpu trainable=4.54M src=6000 tgt_lab=0 tgt_unlab=844 tgt_test=355 steps=279
+mobilenetv3_large_100_dann_tf0.0_s42 {"target_test": {"acc": 0.29295774647887324, "macro_f1": 0.23297816374808758, "n": 355}, "source_test": {"acc": 0.47339091668988575, "macro_f1": 0.41510329807468244, "n": 3589}, "train_s": 2509}
+dev=cpu trainable=4.21M src=6000 tgt_lab=211 tgt_unlab=633 tgt_test=355 steps=291
+mobilenetv3_large_100_full_tf0.25_s42 {"target_test": {"acc": 0.49295774647887325, "macro_f1": 0.5007478744011785, "n": 355}, "source_test": {"acc": 0.48927277793257173, "macro_f1": 0.42459426701216557, "n": 3589}, "train_s": 784}
+dev=cpu trainable=4.21M src=6000 tgt_lab=422 tgt_unlab=422 tgt_test=355 steps=300
+mobilenetv3_large_100_full_tf0.5_s42 {"target_test": {"acc": 0.5661971830985916, "macro_f1": 0.5780340175951236, "n": 355}, "source_test": {"acc": 0.4842574533296183, "macro_f1": 0.42807685691161207, "n": 3589}, "train_s": 1279}
